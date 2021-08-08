@@ -1,0 +1,59 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5px;
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.nav__elements{
+  margin-right: 1%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.encryptor__element{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.file__selector{
+  width: 80%;
+  height: 20vh;
+  border: 1px dashed #333;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(110, 108, 108);
+  cursor: pointer;
+}
+
+.file__contents{
+  width: 80%;
+  height: 20vh;
+  border: 1px dashed #333;
+  overflow: auto;
+  overflow-wrap: break-word;
+}
+
+.encryptor__element > button{
+  padding: 10px;
+  border-radius: 5px;
+  border:1px solid #333;
+  background-color: cyan;
+  font-size: medium;
+  font-weight: 700;
+}
